@@ -58,4 +58,8 @@ void main() {
 
     // 7. Plus besoin de créer des variables différentes, en revanche cela prend toujours beaucoup de lignes, ce n'est pas efficace.
 
+    // Exercice 5
+    // 1/2. Le bloc de code ajouté permet d'assigner les propriétés de notre voiture en une seule ligne via le constructeur.
+    // 3. Le constructeur comme son nom l'indique, permet de créer un objet voiture en une ligne en assignant les propriétés dedans.
+
 }
