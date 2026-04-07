@@ -37,24 +37,24 @@ void main() {
 
     // 6. Mis à jour du code.
 
-    Voiture v1 = new Voiture();
-    Voiture v2 = new Voiture();
-    Voiture v3 = new Voiture();
+    //Voiture v1 = new Voiture();
+    //Voiture v2 = new Voiture();
+    //Voiture v3 = new Voiture();
 
-    v1.marque = "Peugeot";
-    v1.modele = "208";
-    v1.annee = 2021;
-    v1.prix = 14500;
-
-    v2.marque = "Renault";
-    v2.modele = "Clio";
-    v2.annee = 2000;;
-    v2.prix = 3500;
-
-    v3.marque = "Toyota";
-    v3.modele = "Yaris";
-    v3.annee = 2015;
-    v3.prix = 9800;
+    //v1.marque = "Peugeot";
+    //v1.modele = "208";
+    //v1.annee = 2021;
+    //v1.prix = 14500;
+//
+    //v2.marque = "Renault";
+    //v2.modele = "Clio";
+    //v2.annee = 2000;;
+    //v2.prix = 3500;
+//
+    //v3.marque = "Toyota";
+    //v3.modele = "Yaris";
+    //v3.annee = 2015;
+    //v3.prix = 9800;
 
     // 7. Plus besoin de créer des variables différentes, en revanche cela prend toujours beaucoup de lignes, ce n'est pas efficace.
 
@@ -62,4 +62,9 @@ void main() {
     // 1/2. Le bloc de code ajouté permet d'assigner les propriétés de notre voiture en une seule ligne via le constructeur.
     // 3. Le constructeur comme son nom l'indique, permet de créer un objet voiture en une ligne en assignant les propriétés dedans.
 
+    // Exercice 6
+    // Synthèse : Les classes permettent de définir ce qui est une voiture et les objets sont des instances de celles-ci. Le rôle du constructeur est d'instancier l'objet d'une classe en seulement une seule ligne.
+
+    Pneus p1 = new Pneus("été", 205, 55, 16);
+    Voiture v1 = new Voiture("Peugeot", "208", p1, 2021, 14500);
 }
